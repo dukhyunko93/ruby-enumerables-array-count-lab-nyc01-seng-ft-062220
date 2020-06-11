@@ -1,6 +1,7 @@
 def count_strings(array)
   array. count do |str|
     str.class == String
+    do
 end
 
 def count_empty_strings(array)
