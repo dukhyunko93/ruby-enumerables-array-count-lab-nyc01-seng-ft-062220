@@ -12,7 +12,7 @@ index = 0
       array.count {|empty_str| empty_str.empty?}
       total += 1
     end
-    index + = 1
+    index += 1
   end
   total
 end
