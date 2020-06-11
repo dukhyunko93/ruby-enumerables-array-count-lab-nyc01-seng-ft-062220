@@ -5,5 +5,5 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  array.count {|str| str.blank?}
+  array.count {|str| str.empty?}
 end
