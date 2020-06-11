@@ -6,6 +6,6 @@ end
 
 def count_empty_strings(array_1)
   array_1.count do |str|
-    str.class == String
+    str.class == String.empty
   end
 end
