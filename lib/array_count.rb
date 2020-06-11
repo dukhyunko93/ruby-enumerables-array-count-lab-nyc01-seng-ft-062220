@@ -5,7 +5,7 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  array.counut do |empty_str|
+  array.count do |empty_str|
     empty_str == " "
   end
 end
