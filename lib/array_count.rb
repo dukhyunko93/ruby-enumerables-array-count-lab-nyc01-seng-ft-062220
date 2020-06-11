@@ -7,5 +7,5 @@ end
 def count_empty_strings(array)
   array.count do |str|
     str = " "
-    dn
+  end
 end
