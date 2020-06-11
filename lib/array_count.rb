@@ -11,6 +11,8 @@ index = 0
     if array[index].class == String
       array.count {|empty_str| empty_str.empty?}
       total += 1
+    else
+      false
     end
     index += 1
   end
